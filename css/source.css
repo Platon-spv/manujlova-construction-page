@@ -1,53 +1,66 @@
 .wrap {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    // border: 1px dashed black;
-    margin-top: 3em;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	// border: 1px dashed black;
+	margin-top: 3em;
 }
+
 .logo, .ManujlivaName, .underConstructionText {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
+
 .logo {
-    display: inline-block;
-    height: 56px;
-    width: 407px;
-    background-image: url(../img/logo.png);
+	display: inline-block;
+	height: 56px;
+	width: 100%;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
+
 .ManujlivaName {
-    color: #a91954;
-    font-size: 6em;
+	color: #a91954;
+	font-size: 6em;
 }
+
 .underConstructionText {
-    font-size: 2em;
-    font-weight: bold;
+	font-size: 2em;
+	font-weight: bold;
 }
+
 .message {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-  //  border: 1px dashed black;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	//  border: 1px dashed black;
 }
 
+@media (max-width:480px) {
+	.ManujlivaName {
+		font-size: 2.5em;
+	}
 
+	.underConstructionText {
+		font-size: 1.5em;
+	}
 
+	.logo {
+		width: 80vw;
+	}
 
-@media (max-width: 480px) {
-    .ManujlivaName {
-        font-size: 3em;
-    }
-    .underConstructionText {
-        font-size: 1.5em;
-    }
 }
 
-@media (max-width: 680px) {
-    .ManujlivaName {
-        font-size: 4em;
-    }
-    .underConstructionText {
-        font-size: 1.5em;
-    }
+@media (max-width:680px) {
+	.ManujlivaName {
+		font-size: 3.5em;
+	}
+
+	.underConstructionText {
+		font-size: 1.5em;
+	}
+
 }
