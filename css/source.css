@@ -1,0 +1,53 @@
+.wrap {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    // border: 1px dashed black;
+    margin-top: 3em;
+}
+.logo, .ManujlivaName, .underConstructionText {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.logo {
+    display: inline-block;
+    height: 56px;
+    width: 407px;
+    background-image: url(../img/logo.png);
+}
+.ManujlivaName {
+    color: #a91954;
+    font-size: 6em;
+}
+.underConstructionText {
+    font-size: 2em;
+    font-weight: bold;
+}
+.message {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  //  border: 1px dashed black;
+}
+
+
+
+
+@media (max-width: 480px) {
+    .ManujlivaName {
+        font-size: 3em;
+    }
+    .underConstructionText {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 680px) {
+    .ManujlivaName {
+        font-size: 4em;
+    }
+    .underConstructionText {
+        font-size: 1.5em;
+    }
+}
